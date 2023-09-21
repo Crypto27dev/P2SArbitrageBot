@@ -1,0 +1,11 @@
+{
+    "scripts": {
+        "start": "node src/app.js"
+    },
+    "dependencies": {
+        "axios": "^1.4.0",
+        "dotenv": "^16.0.3",
+        "ethers": "^5.4.7",
+        "web3": "^1.9.0"
+    }
+}

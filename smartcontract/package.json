@@ -1,0 +1,26 @@
+{
+    "scripts": {
+        "compile": "npx hardhat compile",
+        "deploy": "npx hardhat run scripts/deployNormal.js --network bscTestnet",
+        "verify": "npx hardhat verify --network bscTestnet <DEPLOYED_ADDRESS> '<PARAMS>'"
+    },
+    "devDependencies": {
+        "@nomicfoundation/hardhat-chai-matchers": "^1.0.6",
+        "@nomicfoundation/hardhat-network-helpers": "^1.0.8",
+        "@nomiclabs/hardhat-ethers": "^2.2.3",
+        "@nomiclabs/hardhat-etherscan": "^3.1.7",
+        "@nomiclabs/hardhat-waffle": "^2.0.5",
+        "chai": "^4.3.7",
+        "ethereum-waffle": "^4.0.10",
+        "ethers": "^5.7.2",
+        "hardhat": "^2.16.1"
+    },
+    "dependencies": {
+        "@aave/core-v3": "^1.17.2",
+        "@uniswap/sdk": "^3.0.3",
+        "@uniswap/v2-core": "^1.0.1",
+        "@uniswap/v2-periphery": "^1.1.0-beta.0",
+        "@uniswap/v3-periphery": "^1.4.3",
+        "mocha": "^10.2.0"
+    }
+}
